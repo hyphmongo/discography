@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should implement the artist-release connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "artist": Object {
+        "id": 1,
+        "releases": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "id": 1,
+                "title": "Stockholm",
+              },
+            },
+          ],
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Shoulds have all basic fields on the artist type 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "artist": Object {
+        "aliases": Array [
+          "Dick Track",
+          "Faxid",
+          "Groove Machine",
+          "Janne Me' Amazonen",
+          "Jesper Dahlbäck",
+          "Lenk",
+          "The Pinguin Man",
+        ],
+        "id": 1,
+        "name": "The Persuader",
+        "realName": "Jesper Dahlbäck",
+        "urls": null,
+      },
+    },
+  },
+}
+`;

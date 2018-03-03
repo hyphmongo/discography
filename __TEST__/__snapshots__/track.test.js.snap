@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should implement the track extra artist connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "release": Object {
+        "tracks": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "extraArtists": Object {
+                  "edges": Array [],
+                },
+                "title": "Untitled 8",
+                "trackno": 1,
+              },
+            },
+            Object {
+              "node": Object {
+                "extraArtists": Object {
+                  "edges": Array [],
+                },
+                "title": "Anjua (Sneaky 3)",
+                "trackno": 2,
+              },
+            },
+            Object {
+              "node": Object {
+                "extraArtists": Object {
+                  "edges": Array [
+                    Object {
+                      "node": Object {
+                        "id": 8,
+                      },
+                    },
+                  ],
+                },
+                "title": "When The Funk Hits The Fan (Mood II Swing When The Dub Hits The Fan)",
+                "trackno": 3,
+              },
+            },
+          ],
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Should implement tracks artist connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "release": Object {
+        "tracks": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "artists": Object {
+                  "edges": Array [
+                    Object {
+                      "node": Object {
+                        "id": 4,
+                      },
+                    },
+                    Object {
+                      "node": Object {
+                        "id": 5,
+                      },
+                    },
+                  ],
+                },
+                "title": "Untitled 8",
+                "trackno": 1,
+              },
+            },
+          ],
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Should paginate tracks by their track number 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "release": Object {
+        "tracks": Object {
+          "edges": Array [
+            Object {
+              "cursor": "Mg==",
+              "node": Object {
+                "title": "Vasastaden",
+                "trackno": 2,
+              },
+            },
+          ],
+          "pageInfo": Object {
+            "endCursor": "Mg==",
+            "hasNextPage": false,
+          },
+        },
+      },
+    },
+  },
+}
+`;

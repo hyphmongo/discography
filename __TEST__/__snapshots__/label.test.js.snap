@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should get parent label 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "label": Object {
+        "parentLabel": Object {
+          "id": 73924,
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Should get sub labels 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "label": Object {
+        "subLabels": Array [
+          Object {
+            "id": 86537,
+            "name": "Antidote (4)",
+          },
+          Object {
+            "id": 41841,
+            "name": "Community Projects",
+          },
+          Object {
+            "id": 153760,
+            "name": "Guilty Pleasures",
+          },
+          Object {
+            "id": 31405,
+            "name": "I Ner Zon Sounds",
+          },
+          Object {
+            "id": 277579,
+            "name": "Planet E Communications",
+          },
+          Object {
+            "id": 294738,
+            "name": "Planet E Communications, Inc.",
+          },
+          Object {
+            "id": 488315,
+            "name": "TWPENTY",
+          },
+        ],
+      },
+    },
+  },
+}
+`;
+
+exports[`Should have all basic fields on the label type 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "label": Object {
+        "contactInfo": "Planet E Communications
+P.O. Box 27218
+Detroit, Michigan, MI 48227
+USA
+
+Phone: +1 313 874 8729
+Fax: +1 313 874 8732
+Email: info@Planet-e.net",
+        "id": 1,
+        "name": "Planet E",
+        "profile": "[a=Carl Craig]'s classic techno label founded in 1991.
+
+On at least 1 release, Planet E is listed as publisher.",
+        "urls": Array [
+          "http://planet-e.net",
+          "http://planetecommunications.bandcamp.com",
+          "http://www.facebook.com/planetedetroit",
+          "http://www.flickr.com/photos/planetedetroit",
+          "http://plus.google.com/100841702106447505236",
+          "http://www.instagram.com/carlcraignet",
+          "http://myspace.com/planetecom",
+          "http://myspace.com/planetedetroit",
+          "http://soundcloud.com/planetedetroit",
+          "http://twitter.com/planetedetroit",
+          "http://vimeo.com/user1265384",
+          "http://en.wikipedia.org/wiki/Planet_E_Communications",
+          "http://www.youtube.com/user/planetedetroit",
+        ],
+      },
+    },
+  },
+}
+`;
+
+exports[`Should implement the label-release connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "label": Object {
+        "releases": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "id": 1025,
+                "title": "Silentintroduction",
+              },
+            },
+          ],
+        },
+      },
+    },
+  },
+}
+`;

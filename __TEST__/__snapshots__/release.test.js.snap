@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should have all basic fields on the release type 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "release": Object {
+        "country": "Sweden",
+        "formats": Array [
+          Object {
+            "formatName": "Vinyl",
+            "position": 1,
+            "quantity": 1,
+          },
+        ],
+        "genres": Array [
+          "Electronic",
+        ],
+        "id": 2,
+        "images": Array [
+          Object {
+            "height": 394,
+            "type": "primary",
+            "width": 400,
+          },
+          Object {
+            "height": 600,
+            "type": "secondary",
+            "width": 600,
+          },
+        ],
+        "master": Object {
+          "id": 713738,
+        },
+        "released": "1998-06-00",
+        "styles": Array [
+          "Broken Beat",
+          "Techno",
+          "Tech House",
+        ],
+        "title": "Knockin' Boots Vol 2 Of 2",
+      },
+    },
+  },
+}
+`;
+
+exports[`Should implement the extra artist connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "release": Object {
+        "extraArtists": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "id": 26,
+              },
+            },
+          ],
+        },
+        "id": 2,
+      },
+    },
+  },
+}
+`;
+
+exports[`Should implement the release artist connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "release": Object {
+        "artists": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "id": 1,
+              },
+            },
+          ],
+        },
+        "id": 1,
+      },
+    },
+  },
+}
+`;
+
+exports[`Should implement the release label connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "release": Object {
+        "id": 1,
+        "labels": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "id": 5,
+              },
+            },
+          ],
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Should implement the release track connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "release": Object {
+        "id": 1,
+        "tracks": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "title": "Östermalm",
+                "trackno": 1,
+              },
+            },
+          ],
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should apply correct pagination when cursor is provided 1`] = `
+Object {
+  "data": Object {
+    "search": Object {
+      "release": Object {
+        "edges": Array [
+          Object {
+            "cursor": "MjA1NjUzMg==",
+            "node": Object {
+              "id": 2056532,
+            },
+          },
+        ],
+        "pageInfo": Object {
+          "endCursor": "MjA1NjUzMg==",
+          "hasNextPage": false,
+        },
+        "totalReturned": 1,
+      },
+    },
+  },
+}
+`;
+
+exports[`Should return correct pageInfo when source edge is null 1`] = `
+Object {
+  "data": Object {
+    "search": Object {
+      "artist": Object {
+        "edges": Array [],
+        "pageInfo": Object {
+          "endCursor": null,
+          "hasNextPage": null,
+        },
+        "totalReturned": 0,
+      },
+    },
+  },
+}
+`;

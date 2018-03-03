@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should apply more complex search query parameters 1`] = `
+Object {
+  "data": Object {
+    "search": Object {
+      "release": Object {
+        "edges": Array [
+          Object {
+            "node": Object {
+              "country": "US",
+              "id": 2151,
+              "released": "1992-00-00",
+              "styles": Array [
+                "Deep House",
+              ],
+              "title": "U Got Me",
+            },
+          },
+          Object {
+            "node": Object {
+              "country": "US",
+              "id": 2152,
+              "released": "1992-00-00",
+              "styles": Array [
+                "Deep House",
+              ],
+              "title": "Together",
+            },
+          },
+          Object {
+            "node": Object {
+              "country": "US",
+              "id": 2153,
+              "released": "1992-00-00",
+              "styles": Array [
+                "Deep House",
+              ],
+              "title": "Some Lovin'",
+            },
+          },
+        ],
+      },
+    },
+  },
+}
+`;
+
+exports[`Should search for artist 1`] = `
+Object {
+  "data": Object {
+    "search": Object {
+      "artist": Object {
+        "edges": Array [
+          Object {
+            "cursor": "MTU2NDQ4Mg==",
+            "node": Object {
+              "id": 1564482,
+            },
+          },
+        ],
+        "pageInfo": Object {
+          "endCursor": "MTU2NDQ4Mg==",
+          "hasNextPage": false,
+        },
+        "totalReturned": 1,
+      },
+    },
+  },
+}
+`;
+
+exports[`Should search for label 1`] = `
+Object {
+  "data": Object {
+    "search": Object {
+      "label": Object {
+        "edges": Array [
+          Object {
+            "cursor": "MjI5MTI=",
+            "node": Object {
+              "id": 22912,
+            },
+          },
+        ],
+        "pageInfo": Object {
+          "endCursor": "MjI5MTI=",
+          "hasNextPage": true,
+        },
+        "totalReturned": 1,
+      },
+    },
+  },
+}
+`;
+
+exports[`Should search for master release 1`] = `
+Object {
+  "data": Object {
+    "search": Object {
+      "master": Object {
+        "edges": Array [
+          Object {
+            "cursor": "MTg4MzI1",
+            "node": Object {
+              "id": 188325,
+            },
+          },
+        ],
+        "pageInfo": Object {
+          "endCursor": "MTg4MzI1",
+          "hasNextPage": false,
+        },
+        "totalReturned": 1,
+      },
+    },
+  },
+}
+`;
+
+exports[`Should search for release 1`] = `
+Object {
+  "data": Object {
+    "search": Object {
+      "release": Object {
+        "edges": Array [
+          Object {
+            "cursor": "MjA1NjUzMg==",
+            "node": Object {
+              "id": 2056532,
+            },
+          },
+        ],
+        "pageInfo": Object {
+          "endCursor": "MjA1NjUzMg==",
+          "hasNextPage": false,
+        },
+        "totalReturned": 1,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should have all basic fields on the master type 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "master": Object {
+        "genres": Array [
+          "Electronic",
+        ],
+        "id": 18500,
+        "styles": Array [
+          "Techno",
+        ],
+        "title": "New Soil",
+        "year": 2001,
+      },
+    },
+  },
+}
+`;
+
+exports[`Should implement the master-release connection 1`] = `
+Object {
+  "data": Object {
+    "lookup": Object {
+      "master": Object {
+        "releases": Object {
+          "edges": Array [
+            Object {
+              "node": Object {
+                "id": 5477,
+                "title": "New Soil",
+              },
+            },
+          ],
+        },
+      },
+    },
+  },
+}
+`;
