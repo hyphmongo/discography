@@ -6,7 +6,7 @@ Graphql API wrapper for Discogs using a local PostgreSQL database.
 
 ##### Prerequisites
 
-* [Download the data dumps from Discogs](https://data.discogs.com/?prefix=data/2017/ 'Download the data dumps from Discogs'). (The latest tested and working data dump is 20180201)
+* [Download the data dumps from Discogs](https://data.discogs.com/?prefix=data/2018/ 'Download the data dumps from Discogs'). (The latest tested and working data dump is 20180201)
 * Import to PostgreSQL using [discogs-xml2db](https://github.com/philipmat/discogs-xml2db 'discogs-xml2db')
 
 ##### Procedure
