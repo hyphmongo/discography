@@ -1,5 +1,5 @@
 import knex from 'knex';
-import config from './../knexfile';
+import config from './knexfile';
 
 export default async function(environment) {
   const db = knex(config[environment]);
