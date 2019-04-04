@@ -21,7 +21,7 @@ Graphql API wrapper for Discogs using a local PostgreSQL database.
 * **APP_PORT**: Port to run the server on
 * **DB_HOST**: Hostname of PSQL server
 * **DB_USER**: Name of the database user
-* **DB_PASSWORD**: Password for the databse
+* **DB_PASSWORD**: Password for the database
 * **DB_NAME**: Name of the database
 * **ENGINE_KEY**: Optional [Apollo Engine](https://engine.apollographql.com/ 'Apollo Engine') key
 
